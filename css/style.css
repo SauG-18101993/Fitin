@@ -583,7 +583,7 @@
     color: #1e1e1e;
     line-height: auto;
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
-    text-stroke: 1px rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
     margin-top: -145px;
     font-family: 'Akira Expanded', sans-serif;
     letter-spacing: 0%;
