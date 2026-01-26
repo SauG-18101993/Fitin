@@ -29,3 +29,14 @@ setInterval(()=>{
 }, 4000);
 
 window.addEventListener("resize", slide);
+new Swiper(".training-swiper", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 0,
+    speed: 6000,
+    allowTouchMove: false,
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false
+    }
+});

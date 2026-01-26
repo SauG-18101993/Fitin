@@ -7,8 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   </head>
   <body>
+    <!-- Swiper Js cdn link -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper Js cdn link Ends -->
 <!-- Navbar Starts -->
     <!-- Main Container -->
     <div class="main-wrapper">
@@ -21,7 +25,7 @@
             <!-- Header -->
             <header class="header-section">
                 <div class="container">
-                    <div class="row g-3 align-items-center flex-nowrap">
+                    <div class="row g-1 align-items-center flex-nowrap">
                         <!-- Logo -->
                         <div class="col-auto">
                             <div class="logo-container">
@@ -50,7 +54,7 @@
                                         <span>Search</span>
                                     </div>
                                     <div class="cart-icon">
-                                        <i class="fas fa-shopping-bag"></i>
+                                        <a class="cart-link" href="#"><img src="./Images/Cart.png" alt="Cart" class="img-fluid"></a>
                                     </div>
                                 </div>
                                 </div>
@@ -66,7 +70,6 @@
                                 </div>
                             </button>
                         </div>
-                    </div>
                 </div>
             </header>
 <!-- Navbar Ends -->
@@ -84,16 +87,16 @@
                                 <!-- User Avatars -->
                                 <div class="user-avatars">
                                     <div class="avatar-item">
-                                        <img src="./Fighter 1.png" alt="Fighter 1">
+                                        <img src="./Images/Fighter 1.png 1" alt="Fighter 1">
                                     </div>
                                     <div class="avatar-item">
-                                        <img src="./Fighter 2.png" alt="Fighter 2">
+                                        <img src="./Images/Fighter 2.png" alt="Fighter 2">
                                     </div>
                                     <div class="avatar-item">
-                                        <img src="./Fighter 3.png" alt="Fighter 3">
+                                        <img src="./Images/Fighter 3.png" alt="Fighter 3">
                                     </div>
                                     <div class="avatar-item">
-                                        <img src="./Fighter 4.png" alt="Fighter 4">
+                                        <img src="./Images/Fighter 4.png" alt="Fighter 4">
                                     </div>
                                 </div>
                                 <!-- Membership Stats -->
@@ -155,7 +158,7 @@
                     <h2 class="training-title fw-bold">PERSONAL TRAINING</h2>
                     <div class="training-number-i">01</div>  
                     <div class="training-image">
-                        <img src="./Personal Training.png" alt="Personal Training">
+                        <img src="./Images/Personal Training.png" alt="Personal Training">
                     </div>
                 </div>
                 <div class="card-border card-border-right"></div>
@@ -175,7 +178,7 @@
                     <h2 class="training-title fw-bold">GROUP WORKOUT</h2>
                     <div class="training-number-i">02</div>                    
                     <div class="training-image training-image-2">
-                        <img src="./Mask group 1.png" alt="Group Workout">
+                        <img src="./Images/Mask group 1.png" alt="Group Workout">
                     </div>
                 </div>
                 <div class="card-border card-border-right"></div>
@@ -195,17 +198,18 @@
                     <h2 class="training-title fw-bold">MUSCLE BUILDING</h2>
                     <div class="training-number-i">03</div>                    
                     <div class="training-image training-image-3">
-                        <img src="./Muscle Building.png" alt="Muscle Building">
+                        <img src="./Images/Muscle Building.png" alt="Muscle Building">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 <!-- Training section ends -->
  <!-- About Section Starts -->
 <section class="about-section py-5">
     <div class="container py-5">
-        <div class="row mb-5">
+        <div class="row mb-5 row_1">
             <div class="col-12 main_2">
                 <h6 class="section-tag">
                     <span class="accent-yellow">○</span> ABOUT OUR GYM 
@@ -215,12 +219,12 @@
         </div>
         <div class="row align-items-center"> <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="image-wrapper">
-                    <img src="./About us fighter.png" alt="About us fighter" class="image-fluid gym-image">
+                    <img src="./Images/About us fighter.png" alt="About us fighter" class="image-fluid gym-image">
                 </div>
             </div>
             <div class="col-lg-6 ps-lg-5 d-flex flex-column justify-content-between main_1">
                 <h1 class="main-heading-1 gradient-text-2">
-                    Empowering Every Body to Move<br>Stronger, Live Better, and Go Further
+                    Empowering Every Body to Move Stronger, Live Better, and Go Further
                 </h1>               
                 <h3 class="sub-heading">
                     We believe fitness is more than just physical. It's <br> about building confidence, discipline, and a <br> lifestyle you can be proud of.
@@ -228,12 +232,12 @@
                 <div class="row mb-5 main_3">
                     <div class="col-md-6">
                         <p class="description-text">
-                            Founded with the version of creating a space for all fitness levels. Our gym offers expert guidance, modern equipment and an uplifting atmosphere to help you achieve your goals.
+                            Founded with the version of creating a <br> space for all fitness levels. Our gym offers <br> expert guidance, modern equipment and an <br> uplifting atmosphere to help you achieve your <br> goals.
                         </p>
                     </div>
                     <div class="col-md-6">
                         <p class="description-text">
-                            Whether you're a beginner or a seasoned athlete. We're here to support your journey with personalized training, diverse programs and a community that motivates you every step of the way.
+                            Whether you're a beginner or a seasoned <br> athlete. We're here to support your journey <br> with personalized training, diverse <br> programs and a community that <br> motivates you every step of the way <br>.
                         </p>
                     </div>
                 </div>
@@ -282,7 +286,7 @@
                         <!-- Personal Training (Active) -->
                         <div class="service-item active position-relative">
                             <div class="rotated-image">
-                                <img src="./Rectangle 2.png" alt="Rectangle 2">
+                                <img src="./Images/Rectangle 2.png" alt="Rectangle 2">
                             </div>
                             <div class="d-flex align-items-center justify-content-between">
                                 <h3 class="service-name mb-0">PERSONAL TRAINING</h3>
@@ -331,7 +335,7 @@
                         <span class="slashes-1">///</span> 
                     </div> 
                     <!-- IMAGE --> 
-                     <img src="./image 34.png" class="img-fluid about-image" alt="gym model"> 
+                     <img src="./Images/image 34.png" class="img-fluid about-image" alt="gym model"> 
                     </div> 
                     <!-- RIGHT SIDE --> 
                      <div class="col-lg-6 about-content"> 
@@ -422,7 +426,7 @@
       <!-- Card 1 -->
       <div class="coach-slide">
         <div class="coach-card">
-          <img src="./Ethan cross.png" alt="Ethan cross" class="img-fluid img-1"/>
+          <img src="./Images/Ethan cross.png" alt="Ethan cross" class="img-fluid img-1"/>
           <div class="coach-overlay"></div>
           <div class="coach-info">
             <!-- <div class="slashes"></div> -->
@@ -435,7 +439,7 @@
       <!-- Card 2 -->
       <div class="coach-slide">
         <div class="coach-card">
-          <img src="./Trent Morgan.png" alt="Trent Morgan" class="img-fluid img-1"/>
+          <img src="./Images/Trent morgan.png" alt="Trent Morgan" class="img-fluid img-1"/>
           <div class="coach-overlay"></div>
           <div class="coach-info">
             <!-- <div class="slashes"></div> -->
@@ -448,7 +452,7 @@
       <!-- Card 3 -->
       <div class="coach-slide">
         <div class="coach-card">
-          <img src="./Damian Brooks.png" alt="Damian Brooks" class="img-fluid img-1"/>
+          <img src="./Images/Damian Brooks.png" alt="Damian Brooks" class="img-fluid img-1"/>
           <div class="coach-overlay"></div>
           <div class="coach-info">
             <!-- <div class="slashes"></div> -->
@@ -763,7 +767,7 @@
     <!-- MAP -->
     <div class="map-wrapper">
       <img
-        src="./Map.png"
+        src="./Images/Map.png"
         alt="World map"
         class="map-foreground"
       />
@@ -779,7 +783,7 @@
       <div class="col-12 position-relative">
 
         <!-- Athlete Image -->
-        <img src="./funny-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-with-dumbbells-isolated-dark-background 1.png" class="img-fluid athlete" alt="fitness model">
+        <img src="./Images/funny-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-with-dumbbells-isolated-dark-background 1.png" class="img-fluid athlete" alt="fitness model">
 
         <!-- Content -->
         <div class="transform-content">
@@ -847,7 +851,6 @@
   </div>
 </footer>
 <!-- Footer Ends -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
     <script src="../coach-slider.js"></script>
   </body>
